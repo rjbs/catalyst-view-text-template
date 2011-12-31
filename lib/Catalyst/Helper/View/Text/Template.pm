@@ -1,5 +1,5 @@
-use strict;
 package Catalyst::Helper::View::Text::Template;
+use strict;
 
 =head1 NAME
 
@@ -7,7 +7,7 @@ Catalyst::Helper::View::Text::Template - Helper for Text::Template Views
 
 =head1 SYNOPSIS
 
-  script/create.pl view NameOfMyView Text::Template 
+  script/create.pl view NameOfMyView Text::Template
 
 =head1 DESCRIPTION
 
@@ -49,7 +49,7 @@ __compclass__
 package [% class %];
 
 use strict;
-use base 'Catalyst::View::Text::Template';
+use parent 'Catalyst::View::Text::Template';
 
 __PACKAGE__->config(TEMPLATE_EXTENSION => '.tmpl');
 

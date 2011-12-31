@@ -1,6 +1,6 @@
+package Catalyst::View::Text::Template;
 use strict;
 use warnings;
-package Catalyst::View::Text::Template;
 use parent 'Catalyst::View';
 
 our $VERSION = '0.004';
@@ -29,7 +29,7 @@ sub new {
 
   my $self = $class->next::method(
     $c,
-    { %$config }, 
+    { %$config },
   );
 
   return $self;

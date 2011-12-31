@@ -1,5 +1,10 @@
 Revision history for Catalyst-View-Text-Template
 
+0.00X   2011-12-31
+        expose the various Text::Template rending options via config(), and a HASH-ish function
+        have the TEMPLATE_EXTENSION config variable work as per Catalyst::View::TT
+        updates to the helper function
+
 0.004   2011-12-30
         eliminate a stupid warning on every render
 

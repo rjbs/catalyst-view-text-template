@@ -7,3 +7,4 @@ cover_db
 ^Makefile.old$
 \.bak$
 ^Catalyst-View-Text-Template
+^MYMETA\..*$
